@@ -1,5 +1,5 @@
 {
-  "name": "storagejs",
+  "name": "@mlundela/storagejs",
   "version": "1.0.0",
   "description": "File stores",
   "main": "dist/index.js",
@@ -20,5 +20,17 @@
     "@babel/cli": "7.2.3",
     "@babel/core": "7.4.0",
     "@babel/preset-env": "7.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlundela/storagejs.git"
+  },
+  "keywords": [
+    "s3",
+    "local"
+  ],
+  "bugs": {
+    "url": "https://github.com/mlundela/storagejs/issues"
+  },
+  "homepage": "https://github.com/mlundela/storagejs#readme"
 }
