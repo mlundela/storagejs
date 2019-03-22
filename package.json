@@ -1,0 +1,24 @@
+{
+  "name": "storagejs",
+  "version": "1.0.0",
+  "description": "File stores",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx babel src --watch --out-dir dist",
+    "build": "npx babel src --out-dir dist"
+  },
+  "author": "Mads Andrè Lundeland",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.426.0",
+    "bluebird": "3.5.3",
+    "mime-types": "2.1.22",
+    "rxjs": "6.4.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2"
+  }
+}
