@@ -1,1 +1,4 @@
-# storagejs
+# File stores
+
+- LocalStorage
+- S3Storage

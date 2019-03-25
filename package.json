@@ -1,12 +1,12 @@
 {
   "name": "@mlundela/storagejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File stores",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx babel src --watch --out-dir dist",
-    "build": "npx babel src --out-dir dist"
+    "start": "babel src --watch --out-dir dist",
+    "build": "babel src --out-dir dist"
   },
   "author": "Mads Andrè Lundeland",
   "license": "ISC",
@@ -32,5 +32,18 @@
   "bugs": {
     "url": "https://github.com/mlundela/storagejs/issues"
   },
-  "homepage": "https://github.com/mlundela/storagejs#readme"
+  "homepage": "https://github.com/mlundela/storagejs#readme",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "10"
+          },
+          "debug": true
+        }
+      ]
+    ]
+  }
 }

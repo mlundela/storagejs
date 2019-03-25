@@ -1,6 +1,7 @@
-import {S3Storage as s3} from './s3'
-import {LocalStorage as local} from './local'
+import { S3Storage } from './s3'
+import { LocalStorage } from './local'
 
-
-export const S3Storage = s3;
-export const LocalStorage = local;
+module.exports = {
+  LocalStorage,
+  S3Storage,
+}
